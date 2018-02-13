@@ -5,6 +5,7 @@ From Hackathon at Binghamton, Feb 10, 2018
 This program tries to predict whether the price of bitcoin will increase or decrease by using past transaction history from coinmarketcap.com
 
 Program uses a HTML parser, utilizing beautiful soup, and turns the data into a csv file which will be extracted using pandas. 
+LINK: https://coinmarketcap.com/currencies/bitcoin/historical-data/
 
 OUTPUT: Probability of bitcoin prices increasing
 
