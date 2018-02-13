@@ -6,6 +6,8 @@ This program tries to predict whether the price of bitcoin will increase or decr
 
 Program uses a HTML parser, utilizing beautiful soup, and turns the data into a csv file which will be extracted using pandas. 
 
+OUTPUT: Probability of bitcoin prices increasing
+
 ALGORITHM:
 1. From the data, get the percent difference between the opening and closing value of all the days and store it into a list
   (Closed - Open) / Open
