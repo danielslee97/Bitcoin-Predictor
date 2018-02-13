@@ -20,4 +20,4 @@ ALGORITHM:
   probability_increase = probability_of_increase / number_of_matches
 7. Output the probability to the user
 
-This was a fun project to program for the hackathon. Of course this can be improved by predicting the predicted price or having an API to constantly get the latest transaction (Not by days as it is now) or programming an AI to do the prediction for us. There are rooms for inprovements but one thing that needs a huge improvement on is on data gathering
+This was a fun project to program for the hackathon. Of course this can be improved by predicting the predicted price or having an API to constantly get the latest transaction (Not by days as it is now) or programming an AI to do the prediction for us. There are rooms for inprovements but one thing that needs a huge improvement on is on data gathering.
