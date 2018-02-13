@@ -14,6 +14,9 @@ ALGORITHM:
   (Closed - Open) / Open
 2. Get the three most current percent difference get the average slope of those three data points
 3. Using the recent slope +- epsilon (margin of error), compare it with all subsets of three (in order from the oldest to most current) in the data, except the current. This is to check whether there were similar trends in the past
+  EX. [1, 2, 3, 4, 5, ... , n]
+  current = slope_of(n-2, n-1, n)
+  compare current to all slope_of[(1, 2, 3), (2, 3, 4), (3, 4, 5), ...]
 4. If similar, increment the number_of_matches by 1 and check if it has increased or decreased after that trend
 5. If increased, increment the probability_of_increase by 1
 6. After going through all the data, find the probability of the this trend increase based on previous similar trends
